@@ -1,0 +1,52 @@
+
+* {
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #222;
+  
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navi {
+  position: fixed;
+  background-color: #222;
+  left: 0;
+  right: 0;
+  
+}
+
+.navi ul {
+  display: flex;
+  justify-content: center;
+}
+
+.navi a {
+  color:rgb(247, 66, 0);
+  text-decoration: none;
+  padding: 8px 20px;
+}
+
+.intro {
+  background-image: url('https://i.pinimg.com/originals/05/f3/9d/05f39dca85521f3d2bf6cc40b911d4a7.jpg');
+  background-size: cover;
+  background-position: bottom center;
+  height: 100vh;
+  color: rgb(241, 222, 222);
+  
+}
+
+.intro h1 {
+  font-size: 46px;
+  position: absolute;
+  right: 350px;
+  top: 400px;
+}
